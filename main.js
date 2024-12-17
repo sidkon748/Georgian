@@ -1,12 +1,2 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Basics Challenge</title>
-</head>
-<body>
-    <h1>JavaScript Basics Coding Challenge</h1>
-    <script src="main.js"></script>
-</body>
-</html>
+const currentDate = new Date();
+console.log("Current Date and Time:", currentDate.toString());
