@@ -8,3 +8,9 @@ const year = currentDate.getFullYear();
 const month = currentDate.getMonth();  
 const day = currentDate.getDate();
 const dayOfWeek = currentDate.getDay();  
+
+// Current Time Sections Displayed
+console.log("Time Indexed by Hour, Minute, and Second")
+const hours = currentDate.getHours();
+const minutes = currentDate.getMinutes();
+const seconds = currentDate.getSeconds();
